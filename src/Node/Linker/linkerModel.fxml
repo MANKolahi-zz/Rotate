@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.Circle?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:id="mainPane" prefHeight="20.0" prefWidth="20.0"
+            xmlns="http://javafx.com/javafx/10.0.1" fx:controller="Node.Linker.LinkerModel">
+    <userData>
+        <fx:reference source="controller"/>
+    </userData>
+    <children>
+        <Circle fx:id="hub" fill="#000000FF" layoutX="10.0" layoutY="10.0" radius="6.0" stroke="#000000"
+                strokeType="INSIDE" AnchorPane.bottomAnchor="4.0" AnchorPane.leftAnchor="4.0"
+                AnchorPane.rightAnchor="4.0" AnchorPane.topAnchor="4.0"/>
+    </children>
+</AnchorPane>
